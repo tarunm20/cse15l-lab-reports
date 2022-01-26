@@ -54,3 +54,5 @@ Now that you have added your ssh key to the server, you won't have to use your p
 We can now run commands through ssh as shown in the image above. After the `ssh "youraccount@ieng6.ucsd.edu"` command you can add quotes and execute local commands like `ls` or `cd`.
 
 Another convenient syntax for running commands is that you can use semicolons to execute multiple commands on one line. For example `javac helloWorld.java; java helloWorld` will compile and execute the `helloWorld.java` file.
+
+If we put this together we can see that there is a reduction in keystrokes between writing down each command one by one and adding them together. When I first ssh into the server, compile, and run the java file I had 83 keystrokes. However, using ssh and the command line tools previously mentioned, I was able to execute the same process in 57 keystrokes. However, if u already write the command down and exit ssh, you can execute the same command again in 2 keystrokes. Just press the up arrow and enter ( ͡• ͜ʖ ͡•)
