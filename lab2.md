@@ -24,7 +24,7 @@ java MarkdownParse test-file4.md
 
 ## Bug Fix #3
 ![Bug 3](lab2/bug3.png)
-The third bug is an index out of bounds exception. The bug occurs because it is checking index - 1 for each loop but when index = 0 the error is thrown. The fix is that it checks if nextOpenBracket - 1 is "!" instead of the current index. The test file link can be found here [test file link]()
+The third bug is an index out of bounds exception. The bug occurs because it is checking index - 1 for each loop but when index = 0 the error is thrown. The fix is that it checks if nextOpenBracket - 1 is "!" instead of the current index. The test file link can be found here [test file link](https://github.com/tarunm20/markdown-parse/blob/main/test-file3.md)
 
 ```
 (base) ➜  markdown-parse git:(main) ✗ java MarkdownParse test-file3.md
