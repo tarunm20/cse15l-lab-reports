@@ -15,3 +15,4 @@ This saves a significant amount of time and energy because we don't have to use 
 ![copying file](lab3/3.png)
 Here we created a simple helloWorld.java file and we are trying to `scp` it into the host directory.
 Using the alias and a specific directory in the host system, we can seemlessly transfer the helloWorld.java file.
+Here is the command we used: `scp helloWorld.java ieng6:~/`
