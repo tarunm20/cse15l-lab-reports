@@ -1,7 +1,11 @@
-# Lab Report 8 - Testing different parsers
+# Lab Report 4 - Testing different parsers
 TLDR: All tests failed :(
 ## The test cases
 Here are the test cases that the two parsers are going to be test on.
+
+Here is the link to my parser: [my parser](https://github.com/tarunm20/markdown-parse)
+
+Here is the link to another group's parser: [other parser](https://github.com/JaredJose/markdown-parse)
 ### Snippet 1
 ![snippet 1](lab4/snippet-1.png)
 This test case should return 3 links: "`google.com", "google.com", "ucsd.edu"
